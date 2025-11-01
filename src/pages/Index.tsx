@@ -44,18 +44,16 @@ const Index = () => {
           OuroSonoro — Prompts Lucrativos
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed">
-          Os 37 Prompts de IA que Geraram Mais de R$ 50 Mil em 90 Dias 
-          <br />
-          <span className="text-lg md:text-xl opacity-90">
-            (Enquanto Você Relaxa com ASMR de Luxo)
-          </span>
+          Os 37 Prompts de IA que Geraram Mais de R$ 50 Mil em 90 Dias
         </p>
         <Button
           size="lg"
           className="text-lg px-8 py-6 animate-pulse-gold"
-          onClick={() => scrollToSection("comprar")}
+          asChild
         >
-          Quero Me Tornar Lucrativo
+          <a href="https://payment.ticto.app/OFA02C78D" target="_blank" rel="noopener noreferrer">
+            Quero Me Tornar Lucrativo
+          </a>
         </Button>
       </section>
 
@@ -72,7 +70,7 @@ const Index = () => {
             </p>
 
             <p>
-              Esses prompts foram desenhados para <strong>automatizar postagens, gerar textos virais, criar produtos digitais e acelerar lucros</strong> usando apenas ChatGPT e outras IAs populares. Tudo isso enquanto você relaxa, ouvindo uma trilha de ASMR que estimula foco e criatividade.
+              Esses prompts foram desenhados para <strong>automatizar postagens, gerar textos virais, criar produtos digitais e acelerar lucros</strong> usando apenas ChatGPT e outras IAs populares. Tudo isso enquanto você multiplica seus resultados e escala seu negócio no piloto automático.
             </p>
 
             <p>
@@ -95,9 +93,11 @@ const Index = () => {
               <Button
                 size="lg"
                 className="text-lg px-8 py-6 animate-pulse-gold"
-                onClick={() => scrollToSection("comprar")}
+                asChild
               >
-                Quero Me Tornar Lucrativo
+                <a href="https://payment.ticto.app/OFA02C78D" target="_blank" rel="noopener noreferrer">
+                  Quero Me Tornar Lucrativo
+                </a>
               </Button>
             </div>
           </CardContent>
@@ -162,7 +162,7 @@ const Index = () => {
               className="text-xl px-12 py-8 animate-pulse-gold"
               asChild
             >
-              <a href="https://seu-link-de-pagamento.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://payment.ticto.app/OFA02C78D" target="_blank" rel="noopener noreferrer">
                 Adquirir Agora
               </a>
             </Button>
